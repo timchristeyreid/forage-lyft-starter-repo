@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
 
 
-class Serviceable(ABC):
+class Engine(ABC):
+
     @abstractmethod
     def needs_service(self):
         pass
-    
